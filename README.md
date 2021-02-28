@@ -30,7 +30,7 @@ struct PhotoGrid: View {
       FlowGrid(items: images, rowHeight: 200) { image in
         Image(image.name)
           .resizable()
-          .scaledToFil()
+          .scaledToFit()
       }
     }
   }
